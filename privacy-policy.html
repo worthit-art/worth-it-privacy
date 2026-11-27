@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Worth It? / Değer mi?</title>
+  <style>
+    :root {
+      --bg: #0b1117;
+      --card: #141e2b;
+      --border: #28384b;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --accent: #10b981;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 24px 16px 64px;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.65rem;
+      letter-spacing: -0.02em;
+    }
+    .lang-btns button {
+      background: var(--card);
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 10px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .lang-btns button.active {
+      background: var(--accent);
+      color: #042f2e;
+      border-color: var(--accent);
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #a7f3d0;
+      margin-top: 22px;
+      margin-bottom: 8px;
+    }
+    h2:first-child { margin-top: 0; }
+    p, li { color: #cbd5e1; font-size: 0.96rem; }
+    a { color: var(--accent); }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 18px; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <h1>Worth It? / Değer mi?</h1>
+      <div class="lang-btns">
+        <button id="btn-en" class="active" onclick="setLang('en')">English</button>
+        <button id="btn-tr" onclick="setLang('tr')">Türkçe</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div id="sec-en">
+        <div class="meta">Privacy Policy • Effective Date: November 2026</div>
+        <h2>1. On-Device Data Only</h2>
+        <p>
+          <strong>Worth It? (Değer mi?)</strong> is designed with privacy first. All personal entries you add—including your monthly income, work hours, cooling-off list, subscriptions, free trials, and savings vault—are stored <strong>exclusively on your device</strong> using local storage. We do not operate backend servers and we never collect, transmit, or sell your personal financial entries.
+        </p>
+
+        <h2>2. Advertising (Google AdMob)</h2>
+        <p>
+          To keep the app free, we display advertisements provided by <strong>Google AdMob</strong>. Google AdMob may collect and use device identifiers (such as the Android Advertising ID), IP address, and basic diagnostic/performance data to serve personalized or non-personalized ads in accordance with Google’s Privacy Policy.
+        </p>
+        <p>
+          For users in the European Economic Area (EEA) and the United Kingdom, the app uses Google’s User Messaging Platform (UMP) to request consent and allows updating ad privacy choices anytime from the in-app Settings screen.
+        </p>
+        <p>
+          Learn more: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> •
+          <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google uses data in ads</a>
+        </p>
+
+        <h2>3. Local Notifications</h2>
+        <p>
+          Reminder notifications (3-day cooling-off decisions, subscription renewals, and free trial alerts) are scheduled locally on your device. No push notification server is used.
+        </p>
+
+        <h2>4. Children’s Privacy</h2>
+        <p>
+          This application is a personal finance utility intended for general audiences and is not directed at children under 13.
+        </p>
+
+        <h2>5. Data Deletion</h2>
+        <p>
+          Because all your entries live strictly on your device, deleting items inside the app or uninstalling the app permanently removes all your data.
+        </p>
+
+        <h2>6. Contact</h2>
+        <p>
+          If you have any questions about this Privacy Policy, please contact us at: <strong><a href="mailto:otphard@gmail.com">otphard@gmail.com</a></strong>
+        </p>
+      </div>
+
+      <div id="sec-tr" class="hidden">
+        <div class="meta">Gizlilik Politikası • Yürürlük Tarihi: Kasım 2026</div>
+        <h2>1. Yalnızca Cihaz İçi Depolama</h2>
+        <p>
+          <strong>Değer mi? (Worth It?)</strong> gizlilik odaklı tasarlanmıştır. Uygulamaya girdiğiniz aylık gelir, çalışma saati, soğuma listesi, abonelikler, ücretsiz denemeler ve kumbara kayıtları <strong>yalnızca kendi telefonunuzda</strong> yerel olarak saklanır. Herhangi bir sunucumuz yoktur; kişisel finansal verileriniz tarafımızca toplanmaz, aktarılmaz veya satılmaz.
+        </p>
+
+        <h2>2. Reklamlar (Google AdMob)</h2>
+        <p>
+          Uygulamayı ücretsiz sunabilmek için <strong>Google AdMob</strong> reklam hizmeti kullanılır. Google AdMob, Google Gizlilik Politikası çerçevesinde reklam gösterimi ve performans ölçümü için cihaz reklam kimliği (Advertising ID), IP adresi ve temel tanı verilerini işleyebilir.
+        </p>
+        <p>
+          Avrupa Ekonomik Alanı (AEA) ve Birleşik Krallık kullanıcıları için uygulama, Google UMP (User Messaging Platform) aracılığıyla reklam onayı ister ve Ayarlar ekranından tercihlerin her zaman güncellenmesine olanak tanır.
+        </p>
+        <p>
+          Detaylı bilgi: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a>
+        </p>
+
+        <h2>3. Yerel Bildirimler</h2>
+        <p>
+          Soğuma listesi, abonelik yenileme ve ücretsiz deneme hatırlatmaları tamamen telefonunuzda yerel olarak planlanır; harici bildirim sunucusu kullanılmaz.
+        </p>
+
+        <h2>4. Verilerin Silinmesi</h2>
+        <p>
+          Tüm kayıtlarınız yalnızca cihazınızda tutulduğu için uygulama içinden kayıtları sildiğinizde veya uygulamayı kaldırdığınızda verileriniz kalıcı olarak silinir.
+        </p>
+
+        <h2>5. İletişim</h2>
+        <p>
+          Gizlilik politikası ile ilgili sorularınız için bize ulaşabilirsiniz: <strong><a href="mailto:otphard@gmail.com">otphard@gmail.com</a></strong>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script>
+    function setLang(lang) {
+      document.getElementById('sec-en').classList.toggle('hidden', lang !== 'en');
+      document.getElementById('sec-tr').classList.toggle('hidden', lang !== 'tr');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.getElementById('btn-tr').classList.toggle('active', lang === 'tr');
+    }
+    if ((navigator.language || '').toLowerCase().startsWith('tr')) setLang('tr');
+  </script>
+</body>
+</html>
